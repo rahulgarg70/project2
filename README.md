@@ -1,4 +1,12 @@
-# New Project
+public static AsciiValue {
+    public static void main(String[]args)
+    char ch ='a';
+    int asci = ch;
+    //You can also cast char to int 
+    int castAscii = (int) ch;
 
-This project was created from local system.
-Created by Shradha Khapra.
+    System.out.println("The ASCII value of " + ch +  "is:" + ascii);
+    System.out.println("The ASCII value of "  + ch + " is:" + castAscii);
+} 
+
+
